@@ -1,0 +1,139 @@
+#mail{
+    color: white;
+    font-size: 12px;
+}
+#no{
+    color: white;
+    font-size: 12px;
+}
+.position{
+    padding-left: 40px;
+}
+.social1{
+    color: white;
+    font-size: 12px;
+    padding-left: 950px;
+    margin: 10px;
+}
+.social{
+    color: white;
+    font-size: 12px;
+    margin: 10px;
+}
+#zay{
+    color: #59ab6e;
+    font-size: 50px;
+    margin: 0px 16px 8px 0px;
+    padding: 5px 0px;
+}
+ul li{
+    margin: 10px;
+    font-size: 20px;
+}
+.icon{
+    font-size: 25px;
+    color: black;
+    margin: 10px;
+}
+.ahead{
+    color: white;
+    padding-top: 60px;
+    font-size: 60px;
+}
+.agraph{
+    color: white;
+    padding-top: 25px;
+    font-size: 17px;
+}
+.aicon{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: #59ab6e;
+    font-size: 80px;
+}
+.iconheading{
+    text-align: center;
+}
+.abackground{
+    background-color: #e9eef5;
+}
+.aheading{
+    text-align: center;
+    font-size: 48px;
+    font-family: sans-serif;
+    padding-top: 50px;
+}
+.apara{
+    text-align: center;
+    font-size: 18px;
+    font-family: sans-serif;
+    padding-top: 15px;
+}
+.footer{
+    background-color: #212934;
+}
+.ftext{
+    color: #59ab6e;
+    font-size: 30px;
+    font-family: serif;
+    padding-left: 35px;
+}
+.ftext2{
+    color: #cfd6e1;
+    font-size: 30px;
+    font-family: serif;
+    padding-left: 10px;
+}
+.obackground{
+    background-color: #1d242d;
+    padding: 16px 0px;
+}
+.owner{
+    color: #dcdde1;
+    font-size: 18px;
+    font-family: serif;
+}
+.cbackground{
+    background-color: #e9eef5;
+    padding-bottom: 65px;
+}
+.cheading{
+    text-align: center;
+    color: #212529;
+    font-size: 48px;
+    font-family: sans-serif;
+    margin: 0px 0px 8px;
+    padding-top: 70px;
+}
+.cparagraph{
+    text-align: center;
+    color: #212529;
+    font-size: 18px;
+    font-family: sans-serif;
+    margin: 0px 0px 16px;
+    padding-top: 10px;
+}
+.google-map {
+    padding-bottom: 25%;
+    position: relative;
+}
+
+.google-map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+.link{
+    color: black;
+     margin: 10px;
+    font-size: 25px;
+    text-decoration: none !important;
+}
+.iback{
+    background-color: #e9eef5;
+    padding-bottom: 25px;
+}

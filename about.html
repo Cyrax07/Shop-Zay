@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Zay</title>
+</head>
+<body>
+    <nav class="navbar navbar-light bg-dark d-none d-lg-block">
+        <div class="position">
+            <a class="navbar-brand" href="mailto:info@company.com" target="_blank"id="mail"><ion-icon name="mail-outline"></ion-icon> info@company.com</a>
+            <a class="navbar-brand" href="#"id="no"onclick="alert('hello');"><ion-icon name="call-outline"></ion-icon> 010-020-0340</a>
+            <a class="social1" href="https://www.facebook.com/" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a class="social" href="https://www.instagram.com/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a class="social" href="https://twitter.com/" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+            <a class="social" href="https://www.linkedin.com/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+        </div>
+    </nav>
+    <div class="shadow p-3 mb-5 bg-white rounded">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+          <a class="navbar-brand" href="index.html" id="zay">ZAY</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto" id="myUl">
+              <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+              <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item active">
+                  <a class="nav-link" href="shop.html">Shop</a>
+              </li>
+              <li class="nav-item active">
+                  <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+          </ul> 
+          <div class="navbar align-self-center d-flex">
+              <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModal" style="margin: 10px;">
+              <ion-icon name="search"></ion-icon>
+              </button>
+              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                  <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Search</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                      </button>
+                  </div>
+                  <div class="modal-body">
+                      <form class="form-inline my-2 my-lg-0">
+                      <input class="form-control mr-sm-2" type="search" placeholder="Search..." aria-label="Search">
+                      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                      </form>
+                  </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                  </div>
+              </div>
+              </div>
+              <a href="#" class="icon"><ion-icon name="cart-outline"></ion-icon></a>
+              <a href="#" class="icon"><ion-icon name="people"></ion-icon></a>
+          </div>
+          </div>
+      </nav>
+  </div>
+    <section style="background-color: #59ab6e;">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h1 class="ahead">About Us</h1>
+                    <p class="agraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, veritatis velit perspiciatis molestias minima fuga sed corrupti amet placeat ullam ratione magni, eum iure illo et porro unde quia accusantium?</p>
+                </div>
+                <div class="col-sm-6">
+                    <img class="img-fluid" src="https://templatemo.com/templates/templatemo_559_zay_shop/assets/img/about-hero.svg" alt="" style="display: block; margin-left: auto; margin-right: auto; width: 80%;">
+                </div>
+            </div>
+        </div>
+    </section>
+    <div>
+        <h1 class="text-center" style="font-size: 48px; font-family: sans-serif; padding-top: 50px;">Our Services</h1>
+        <p class="text-center" style="font-size: 18px; font-family: sans-serif; padding-top: 15px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="container" style="padding-top: 30px;">
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="shadow p-3 mb-5 bg-white rounded">
+                    <span class="aicon"><ion-icon name="car"></ion-icon></span>
+                    <h5 class="iconheading">Delivery Services</h5>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="shadow p-3 mb-5 bg-white rounded">
+                    <span class="aicon"><ion-icon name="arrow-forward"></ion-icon></span>
+                    <h5 class="iconheading">Shipping & Return</h5>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="shadow p-3 mb-5 bg-white rounded">
+                    <span class="aicon"><ion-icon name="trending-up"></ion-icon></span>
+                    <h5 class="iconheading">Pomotion</h5>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="shadow p-3 mb-5 bg-white rounded">
+                    <span class="aicon"><ion-icon name="person"></ion-icon></span>
+                    <h5 class="iconheading">24 Hours Service</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="abackground">
+        <h1 class="aheading">Our Brands</h1>
+        <p class="apara">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod Lorem ipsum dolor sit amet.</p>
+        <div class="container" style="padding-top: 20px;">
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="shadow p-3 mb-5 bg-dark rounded">
+                      <img class="img-fluid" src="https://templatemo.com/templates/templatemo_559_zay_shop/assets/img/brand_01.png" alt="" style="width: 100%;">
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="shadow p-3 mb-5 bg-dark rounded">
+                      <img class="img-fluid" src="https://templatemo.com/templates/templatemo_559_zay_shop/assets/img/brand_02.png" alt="" style="width: 100%;">
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="shadow p-3 mb-5 bg-dark rounded">
+                      <img class="img-fluid" src="https://templatemo.com/templates/templatemo_559_zay_shop/assets/img/brand_03.png" alt="" style="width: 100%;">
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="shadow p-3 mb-5 bg-dark rounded">
+                      <img class="img-fluid" src="https://templatemo.com/templates/templatemo_559_zay_shop/assets/img/brand_04.png" alt="" style="width: 100%;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm" style="padding-top: 50px;">
+            <h2 class="ftext">Zay Shop</h2>
+            <ul style="color: #cfd6e1; list-style: none; margin: 0px; padding: 0px; padding-top: 10px;">
+              <li>
+                <address>
+                  <span><ion-icon name="location"></ion-icon></span> 123 Consectetur at ligula 10660
+                </address>
+              </li>
+              <li>
+                <span><ion-icon name="call"></ion-icon></span> <a href=""onclick="alert('hello');" style="color: #cfd6e1;">010-020-0340</a>
+              </li>
+              <li>
+                <span><ion-icon name="mail"></ion-icon></span> <a href="mailto:info@company.com" style="color: #cfd6e1;">info@company.com</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm" style="padding-top: 50px;">
+            <h2 class="ftext2">Products</h2>
+            <ul style="list-style: none; margin: 0px; padding: 0px; padding-top: 10px;">
+              <li><a href="#"style="color: #dcdde1;">Luxury</a></li>
+              <li><a href="#"style="color: #dcdde1;">Sports Wear</a></li>
+              <li><a href="#"style="color: #dcdde1;">Men's Shoes</a></li>
+              <li><a href="#"style="color: #dcdde1;">Women's Shoes</a></li>
+              <li><a href="#"style="color: #dcdde1;">Popular Dress</a></li>
+              <li><a href="#"style="color: #dcdde1;">Gym Accessories</a></li>
+              <li><a href="#"style="color: #dcdde1;">Sport Shoes</a></li>
+            </ul>
+          </div>
+          <div class="col-sm" style="padding-top: 50px;">
+            <h2 class="ftext2">Further Info</h2>
+            <ul style="list-style: none; margin: 0px; padding: 0px; padding-top: 10px;">
+              <li><a href="about.html"style="color: #dcdde1;">Home</a></li>
+              <li><a href="#"style="color: #dcdde1;">About Us</a></li>
+              <li><a href="#"style="color: #dcdde1;">Shop Locations</a></li>
+              <li><a href="#"style="color: #dcdde1;">FAQs</a></li>
+              <li><a href="#"style="color: #dcdde1;">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <hr style="background-color: aliceblue; width: 80%;">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <a href="https://www.facebook.com/" target="_blank"><ion-icon name="logo-facebook" class="rounded-circle" style="font-size: 30px; color: white; margin: 10px;"></ion-icon></a>
+            <a href="https://www.instagram.com/" target="_blank"><ion-icon name="logo-instagram" class="" style="font-size: 30px; color: white; margin: 10px;"></ion-icon></a>
+            <a href="https://www.twitter.com/" target="_blank"><ion-icon name="logo-twitter" class="" style="font-size: 30px; color: white; margin: 10px;"></ion-icon></a>
+            <a href="https://www.linkedin.com/" target="_blank"><ion-icon name="logo-linkedin" class="" style="font-size: 30px; color: white; margin: 10px;"></ion-icon></a>
+          </div>
+          <div class="col-sm">
+            <form class="form-inline my-2 my-lg-0" style="padding-top: 10px;">
+              <input class="form-control mr-sm-2" type="search" placeholder="Email Address" aria-label="Search" style="background-color: #212934;">
+              <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="obackground">
+      <div class="container">
+        <p class="owner">Copyright © 2023 Company Name | Designed By <a href="https://github.com/Cyrax07" target="_blank" style="color: #dcdde1; font-size: 18px;"><u>Talib Abbas</u></a></p>
+      </div>
+    </div>
+</body>
+</html>
